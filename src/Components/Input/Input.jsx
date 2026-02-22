@@ -16,7 +16,7 @@ function TheInput({ value, onChange }) {
 
         <div id="main">
           <input
-            placeholder="Search..."
+            placeholder="e.g. Burger"
             type="text"
             name="text"
             className="input"

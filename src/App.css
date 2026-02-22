@@ -6,7 +6,7 @@ body {
 /* Navbar Heading */
 #navbar-main-heading {
   padding: 0rem 1rem;
-  color: #5e62e5;
+  color: #6366f1;
   font-weight: bold;
   font-size: 20px;
 }
@@ -39,4 +39,14 @@ body {
 /* Input Label */
 label {
   font-weight: 600;
+}
+
+/* Result Card */
+.result-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  gap: 30px;
+  padding: 20px;
 }

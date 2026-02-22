@@ -1,6 +1,6 @@
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCloudSunRain } from "@fortawesome/free-solid-svg-icons";
+import { faBurger } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router";
 import Badge from "react-bootstrap/Badge";
 
@@ -53,14 +53,14 @@ function Header() {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
               <FontAwesomeIcon
-                icon={faCloudSunRain}
-                fade
+                icon={faBurger}
+                bounce
                 style={{ color: "#6366f1" }}
                 size="2x"
               />
 
               <Badge id="navbar-main-heading" bg="primary" text="white">
-                Weather App
+                Food Recipe App
               </Badge>
             </div>
             <div className="hidden sm:ml-6 sm:block">
